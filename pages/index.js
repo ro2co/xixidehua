@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import {Button} from "@chakra-ui/react"
+import Layout from "../layouts"
 
 export default function Home() {
   return (
@@ -17,4 +18,7 @@ export default function Home() {
       </main>
     </div>
   )
+}
+Home.getLayout = function(page) {
+  return <Layout>{page}</Layout>
 }
