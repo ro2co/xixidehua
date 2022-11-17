@@ -8,6 +8,7 @@ specifiers:
   eslint-config-next: 13.0.2
   framer-motion: ^6
   next: 13.0.2
+  pocketbase: ^0.7.4
   react: 18.2.0
   react-dom: 18.2.0
 
@@ -19,6 +20,7 @@ dependencies:
   eslint-config-next: registry.npmmirror.com/eslint-config-next/13.0.2_eslint@8.27.0
   framer-motion: registry.npmmirror.com/framer-motion/6.5.1_biqbaboplfbrettd7655fr4n2y
   next: registry.npmmirror.com/next/13.0.2_biqbaboplfbrettd7655fr4n2y
+  pocketbase: registry.npmmirror.com/pocketbase/0.7.4
   react: registry.npmmirror.com/react/18.2.0
   react-dom: registry.npmmirror.com/react-dom/18.2.0_react@18.2.0
 
@@ -3744,6 +3746,12 @@ packages:
     name: picomatch
     version: 2.3.1
     engines: {node: '>=8.6'}
+    dev: false
+
+  registry.npmmirror.com/pocketbase/0.7.4:
+    resolution: {integrity: sha512-PvBRi4hbgbiBwDjhHa9lGD/ala8dSTjKeNAsHAgsXdIo4v9RgCk2s3Zqd/4UXVBgTJHVM6F7fGOZPvvJfSNVLQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/pocketbase/-/pocketbase-0.7.4.tgz}
+    name: pocketbase
+    version: 0.7.4
     dev: false
 
   registry.npmmirror.com/popmotion/11.0.3:
