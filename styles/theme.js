@@ -24,7 +24,7 @@ const Container = {
   },
   
   defaultProps: {
-    size: ['sm','sm','sm','xl',]
+    size: ['sm','sm','sm','lg',]
   },
 };
 
@@ -43,8 +43,8 @@ const sizes = {
     container: {
       sm: '640px',
       md: '768px',
-      lg: '1024px',
-      xl: '1080px',
+      lg: '1150px',
+      xl: '1400px',
     },
   }
 }
@@ -57,11 +57,10 @@ const colors = {
 
 const breakpoints = {
   breakpoints: {
-    sm: '480px',
-    md: '640px',
-    lg: '1080px',
-    xl: '1200px',
-    '2xl': '1400px',
+    sm: '640px',
+    md: '768px',
+    lg: '1150px',
+    xl: '1400px',
   }
 }
 const components = {

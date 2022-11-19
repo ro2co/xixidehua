@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import {Button, Box,Switch} from "@chakra-ui/react"
 import Layout from "../layouts"
+import Banner from "../components/banner"
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       </Head>
 
       <main>
+        <Banner></Banner>
         <div>
           Hello nextjs
           <Button>test</Button>
