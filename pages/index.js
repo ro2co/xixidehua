@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import {Button, Box,Switch} from "@chakra-ui/react"
-import Layout from "../layouts"
+import Layout from "../layouts/index"
 import Banner from "../components/banner"
 
 export default function Home() {
@@ -13,15 +13,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <Banner></Banner>
-        <div>
-          Hello nextjs
-          <Button>test</Button>
-          <Button variant="solid" bg="primary">primary</Button>
-        </div>
-        <div>
-            <Switch size='md' />
-        </div>
+        
         <Box fontSize="lg" fontWeight="thin">
             my size is is  
         </Box>

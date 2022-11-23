@@ -23,10 +23,9 @@ function Header() {
         </Flex>
         <Flex width="30rem" justifyContent="space-between">
           <Link href="/">主页</Link>
-          <Link href="/painting">画</Link>
-          <Link href="/sketch">涂鸦</Link>
-          <Link href="/about">摘抄</Link>
-          <Link href="/about">我</Link>
+          <Link href="/painting">我的涂鸦</Link>
+          <Link href="/monster">怪兽星球</Link>
+          <Link href="/about">关于我</Link>
         </Flex>
       </Container>
     </Box>

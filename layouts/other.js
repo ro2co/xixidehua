@@ -10,7 +10,7 @@ const style = css`
   padding-top: 5rem;
 `
 function Layout({children}) {
-  return <div className="other">
+  return <div>
     <Header/>
     <Box css={style}>
       {children}
