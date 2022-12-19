@@ -12,10 +12,10 @@ export default function Page() {
         <InnerBanner />
       </Container>
       <Container display="flex" justifyContent="space-between">
-        <Box h="400px" w="30%" bg="pink">
+        <Box h="400px" w="30%" bg="white" borderRadius="1em">
           left
         </Box>
-        <Box h="900px" w="68%" bg="pink">
+        <Box h="900px" w="68%" bg="white" borderRadius="1em">
           right
         </Box>
       </Container>
