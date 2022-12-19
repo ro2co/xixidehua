@@ -5,8 +5,9 @@ import {css} from "@emotion/react"
 
 const style = css`
   min-height: 900px;
-  background: url("http://road2code.oss-cn-hangzhou.aliyuncs.com/blog/header_bg.webp") no-repeat;
+  background: url("http://road2code.oss-cn-hangzhou.aliyuncs.com/blog/033124.jpg") no-repeat;
   background-size: 100%;
+  background-attachment: fixed;
   padding-top: 5rem;
 `
 function Layout({children}) {
@@ -15,7 +16,6 @@ function Layout({children}) {
     <Box css={style}>
       {children}
     </Box>
-    <Footer />
   </div>
 }
 export default Layout
